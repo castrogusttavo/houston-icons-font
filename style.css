@@ -23,7 +23,7 @@
   left: 0;
 }
 .hgi-stroke.hgi-abacus:before {
-  content: "";
+  content: "hgi-abacus";
 }
 .hgi-stroke.hgi-absolute:before {
   content: "";
