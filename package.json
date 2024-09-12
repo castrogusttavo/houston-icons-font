@@ -1,0 +1,36 @@
+{
+  "name": "houston-icon-font",
+  "version": "1.0.0",
+  "description": "Houston Icons Font Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/castrogusttavo/houston-icon-font.git"
+  },
+  "bugs": {
+    "url": "https://github.com/castrogusttavo/houston-icon-font.git/issues"
+  },
+  "keywords": [
+    "icons",
+    "font-icons",
+    "ui-components",
+    "design-system",
+    "vector-icons",
+    "web-icons",
+    "scalable-icons",
+    "customizable-icons",
+    "icon-library"
+  ],
+  "author": "castrogusttavo",
+  "workspaces": [
+    "packages/*"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "packageManager": "npm@20.0.0",
+  "license": "CC0-1.0"
+}
