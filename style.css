@@ -1,12 +1,12 @@
 @font-face {
   font-family: "hgi-stroke-rounded";
-  src: url("hgi-stroke-rounded.eot?t=1721855138058");
+  src: url("/fonts/hgi-stroke-rounded.eot?t=1721855138058");
   src:
-    url("hgi-stroke-rounded.eot?t=1721855138058#iefix")
+    url("/fonts/hgi-stroke-rounded.eot?t=1721855138058#iefix")
       format("embedded-opentype"),
-    url("hgi-stroke-rounded.woff2?t=1721855138058") format("woff2"),
-    url("hgi-stroke-rounded.woff?t=1721855138058") format("woff"),
-    url("hgi-stroke-rounded.ttf?t=1721855138058") format("truetype"),
+    url("/fonts/hgi-stroke-rounded.woff2?t=1721855138058") format("woff2"),
+    url("/fonts/hgi-stroke-rounded.woff?t=1721855138058") format("woff"),
+    url("/fonts/hgi-stroke-rounded.ttf?t=1721855138058") format("truetype"),
     url("hgi-stroke-rounded.svg?t=1721855138058#hgi-stroke-rounded")
       format("svg");
 }
