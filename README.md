@@ -57,10 +57,39 @@ To start using HoustonIcons-React in your project, install the package via npm:
 Import the icons you need from the library and integrate them into your React components. Here's how you can customize the icons to fit your needs:
 
 ### Control Icon Size
-Adjust the size of your icons by passing a `size` prop:
+Adjust the size of your icons by using CSS classes or inline styles. Here's how you can do it:
+
+**Using CSS Classes**
+Define different sizes in your CSS file and apply them as needed:
+
+```css
+/* styles.css */
+.hgi-size-small {
+  font-size: 16px;
+}
+
+.hgi-size-medium {
+  font-size: 24px;
+}
+
+.hgi-size-large {
+  font-size: 32px;
+}
+```
 
 ```html
-<i class="hgi-stroke hgi-abacus"></i>
+<i class="hgi-stroke hgi-abacus hgi-size-small"></i>
+<i class="hgi-stroke hgi-abacus hgi-size-medium"></i>
+<i class="hgi-stroke hgi-abacus hgi-size-large"></i>
+```
+
+**Using CSS Classes**
+Define different sizes in your CSS file and apply them as needed:
+
+```html
+<i class="hgi-stroke hgi-abacus" style="font-size: 16px;"></i>
+<i class="hgi-stroke hgi-abacus" style="font-size: 24px;"></i>
+<i class="hgi-stroke hgi-abacus" style="font-size: 32px;"></i>
 ```
 
 ## Live Example
